@@ -1,0 +1,75 @@
+# ===== Python =====
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+pip-log.txt
+pip-delete-this-directory.txt
+
+# ===== Virtual Environments =====
+.venv/
+venv/
+ENV/
+env/
+
+# ===== IDEs =====
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.pydevproject
+.settings/
+
+# ===== Environment Variables =====
+.env
+.env.local
+.env.*.local
+config/*/secrets.yaml
+
+# ===== Data & Logs =====
+data/models/
+data/databases/
+data/logs/
+data/cache/
+logs/
+*.log
+
+# ===== Testing & Coverage =====
+.coverage
+.coverage.*
+htmlcov/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# ===== OS =====
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ===== Docker =====
+docker-compose.override.yml
+
+# ===== Project Specific =====
+*.pth
+*.pt
+*.onnx
+*.bin
